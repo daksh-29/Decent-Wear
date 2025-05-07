@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Men's T-Shirts</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">Decent Wear</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#order">Order</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="home-section">
+    <h1>Style That Speaks – T-Shirts for Every Vibe</h1>
+    <a href="#products" class="cta-button">Shop Now</a>
+  </section>
+
+  <section id="products" class="products-section">
+    <h2>Our T-Shirts</h2>
+    <div class="product-category">
+      <h3>Polo T-shirts – ₹800</h3>
+      <div class="product-grid">
+        <!-- Replace src with your own images -->
+        <img src="pb.jfif" alt="Polo T-shirt">
+        <img src="pw.jfif" alt="Polo T-shirt">
+        <img src="pbl.jfif" alt="Polo T-shirt">
+        <img src="pbr.jfif" alt="Polo T-shirt">
+        <img src="pg.jfif" alt="Polo T-shirt">
+
+        <!-- ... Repeat until polo10.jpg -->
+      </div>
+    </div>
+
+    <div class="product-category">
+      <h3>Basic Oversized T-shirts – ₹500</h3>
+      <div class="product-grid">
+        <img src="b1.jfif" alt="Basic T-shirt">
+        <img src="bw.jfif" alt="Basic T-shirt">
+        <img src="bb.jfif" alt="Basic T-shirt">
+        <img src="bbr.jfif" alt="Basic T-shirt">
+        <img src="bg.jfif" alt="Basic T-shirt">
+
+        <!-- ... basic2.jpg to basic10.jpg -->
+      </div>
+    </div>
+
+    <div class="product-category">
+      <h3>Printed T-shirts – ₹1000</h3>
+      <div class="product-grid">
+        <img src="r1.jfif" alt="Printed T-shirt">
+        <img src="r2.jfif" alt="Printed T-shirt">
+        <img src="r3.jfif" alt="Printed T-shirt">
+        <img src="r4.jfif" alt="Printed T-shirt">
+        <img src="r5.jfif" alt="printed T-shirt"
+      </div>
+    </div>
+  </section>
+
+  <section id="order" class="order-section">
+    <h2>Place Your Order</h2>
+    <form id="orderForm">
+      <label for="type">T-shirt Type:</label>
+      <select id="type" name="type" required>
+        <option value="">Select</option>
+        <option value="Polo">Polo T-shirts</option>
+        <option value="Basic">Basic T-shirts</option>
+        <option value="Printed">Printed T-shirts</option>
+      </select>
+
+      <form id="orderForm">
+        <label for="type">Colour </label>
+        <select id="type" name="type" required>
+          <option value="">Select</option>
+          <option value="color">Black</option>
+          <option value="color">White</option>
+          <option value="color">Blue</option>
+          <option value="color">Brown</option>
+          <option value="color">Grey</option>
+        </select>
+    
+        <form id="orderForm">
+            <label for="type">Size</label>
+            <select id="type" name="type" required>
+              <option value="">Select</option>
+              <option value="size">S</option>
+              <option value="size">M</option>
+              <option value="size">L</option>
+              <option value="size">XL</option>
+            </select>
+
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">Your Email:</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Decent Wear. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
